@@ -1,5 +1,5 @@
 # DecodeMTL API
-API built with Node.js and TypeScript to consume DecodeMTL's WordPress API
+API built with Node.js and TypeScript to consume DecodeMTL's WordPress REST API v2
 
 ### Requirements
 * WordPress instance using the [DecodeMTL WP Theme](https://github.com/nyanofthemoon/decodemtl-wp-theme)

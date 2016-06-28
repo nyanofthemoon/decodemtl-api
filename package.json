@@ -1,0 +1,32 @@
+{
+  "name": "decodemtl-api",
+  "version": "1.0.0",
+  "description": "DecodeMTL Node.js Wrapper for WordPress API 2.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run dist",
+    "dist": "./node_modules/typescript/bin/tsc || true",
+    "dev": "./node_modules/parallelshell/index.js './node_modules/typescript/bin/tsc -w' './node_modules/nodemon/bin/nodemon.js --watch dist/'",
+    "start": "pm2 --no-daemon start dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyanofthemoon/decodemtl-api.git"
+  },
+  "author": "Paule Lepage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyanofthemoon/decodemtl-api/issues"
+  },
+  "homepage": "https://github.com/nyanofthemoon/decodemtl-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pm2": "^1.1.3",
+    "request": "^2.72.0",
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

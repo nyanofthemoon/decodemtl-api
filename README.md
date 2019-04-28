@@ -1,8 +1,8 @@
-# DecodeMTL API
-API built with Node.js and TypeScript to consume DecodeMTL's WordPress REST API v2
+# Wordpress Proxy API
+API built with Node.js and TypeScript to consume a WordPress REST API v2
 
 ### Requirements
-* WordPress instance using the [DecodeMTL WP Theme](https://github.com/nyanofthemoon/decodemtl-wp-theme)
+* WordPress instance using the [Proxy API WP Theme](https://github.com/nyanofthemoon/proxy-api-wp-theme)
 
 ### Installation
 * `npm install`

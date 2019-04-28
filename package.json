@@ -1,7 +1,7 @@
 {
   "name": "decodemtl-api",
   "version": "1.0.0",
-  "description": "DecodeMTL Node.js Wrapper for WordPress API 2.0",
+  "description": "Node.js Wrapper for WordPress API 2.0",
   "main": "dist/index.js",
   "scripts": {
     "postinstall": "npm run dist",
